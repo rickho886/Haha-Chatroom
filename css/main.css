@@ -1,0 +1,117 @@
+body {
+    background:url('../background.jpg') no-repeat center fixed;
+    padding-top: 15%;
+ }
+
+p {
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Open Sans';
+    text-align: center;
+    color: white;
+    background-color: salmon;
+}
+
+input[type=email]:focus{
+    border-color: #ffffff;
+    box-shadow: 5px 8px 4px rgb(173, 43, 206);
+}
+
+input[type=email]:active{
+    border-color: rgb(255, 255, 255);
+}
+
+input[type=password]:focus{
+    border-color: #ffffff;
+    box-shadow: 5px 8px 4px rgb(173, 43, 206);
+}
+
+input[type=password]:active{
+    border-color: rgb(255, 255, 255);
+}
+
+input[type=text]:focus{
+    border-color: #ffffff;
+    box-shadow: 5px 8px 4px rgb(173, 43, 206);
+}
+
+input[type=text]:active{
+    border-color: rgb(255, 255, 255);
+}
+
+
+.form-control::placeholder {
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #c4c4c4;
+}
+
+.container {
+    height: max-content;
+}
+
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
+
+.btn-circle.btn-xl:focus{ 
+    box-shadow: 5px 4px 2px rgb(161, 161, 158);
+} 
+
+#login-button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(71, 66, 66);
+    border-color: rgb(71, 66, 66);
+}
+
+#login-button:hover {
+    background-color: rgb(105, 96, 96);
+    border-color: rgb(105, 96, 96);
+}
+
+#login-button:focus {
+    background-color: rgb(105, 96, 96);
+    border-color: rgb(105, 96, 96);
+}
+
+#loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(180, 180, 180, 0.5);
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/haha-chatroom.appspot.com/o/loading.gif?alt=media&token=a3fd492e-0b70-4fc5-bd5d-9252ffc1abe6");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+  }
+  
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+  /* Demo Purpose Only*/
+  .demo {
+    font-family: 'Raleway', sans-serif;
+      color:#fff;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+      text-align: center;
+  }
+  .demo a{
+    font-family: 'Raleway', sans-serif;
+  color: #000;		
+  }
